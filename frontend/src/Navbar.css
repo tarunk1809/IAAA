@@ -1,0 +1,168 @@
+/* nav{
+    padding: 20px;
+    background-color: lightblue;
+} */
+
+/* nav a {
+    margin-right: 15px;
+} */
+
+/* nav a.active{
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-color: #f0f0f0;  
+} */
+
+/* Style individual question cards */
+/* .question-card {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+} */
+
+/* Hover effect for cards */
+/* .question-card:hover {
+    transform: scale(1.05);
+} */
+
+/* Style the images inside the cards */
+/* .question-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+} */
+
+/* Style for the questions page */
+/* .questions-page {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* Style for the header in question pages */
+/* .questions-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+} */
+
+/* Style for the list of questions */
+/* .questions-page ul {
+    list-style-type: none;
+    padding: 0;
+} */
+
+/* .questions-page ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+} */
+
+/* Navbar Styles */
+nav {
+  padding: 15px 30px;
+  background-color: #0077cc;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin-right: 20px;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+/* Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9eef1;
+  font-family: "Arial", sans-serif;
+}
+
+/* Question Card Styles */
+.question-card {
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 15px;
+  width: 220px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.question-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Questions Page Styles */
+.questions-page {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.questions-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.questions-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.questions-page ul li {
+  margin: 12px 0;
+  font-size: 1.3rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.questions-page ul li:hover {
+  color: #0077cc;
+}
